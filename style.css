@@ -1,0 +1,91 @@
+.buttons {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    height: 60px;
+}
+.index{
+    margin-top: 100px;
+    padding: 10px 20%;
+    background-color: #eee;
+}
+.index ol{
+    list-style-type: none;
+}
+.edit-area {
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+    
+}
+.inserted-image{
+    max-width: 150px;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.txt {
+    padding: 10px;
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.txt:focus {
+    outline: none;
+    border-left: 5px #ddd solid;
+}
+
+.txt img {
+    width: 100%;
+}
+
+.highlight {
+    color: aqua;
+}
+
+.colors {
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    top: 50px;
+    right: 0;
+}
+
+.color-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+}
+.purple{
+    color: purple;
+}
+.blue{
+    color: blue;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.orange{
+    color: orange;
+}
+.f{
+    display: flex;
+    gap: 10px;
+}
