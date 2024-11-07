@@ -187,7 +187,7 @@
                                 let alt = prompt('altを入力');
                                 let imgTag = `<img src = "${srcName}" alt="${alt}">`;
                                 elem.querySelector('.txt').innerHTML = imgTag;
-
+                                btnImage.value='';
                             } else {
                                 console.log(result.message);
                                 alert('php.iniでアップロード可能なファイルサイズを確認してください');
